@@ -1,0 +1,10 @@
+name: Second Action
+on: workflow_dispatch
+Jobs:
+  second-jobs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print greeting2
+      run: |
+        echo "First Output"
+        echo "Second Output"
